@@ -7,6 +7,7 @@ body {
     align-items: center;
     text-align: left;
     font-family: 'Charis SIL', serif;
+    font-family: 'Fraunces', serif;
     font-family: 'Gentium Book Plus', serif;
     background: #FDEDEC;
 }
@@ -25,7 +26,7 @@ body {
 }
 
 .about {
-    margin: 0 10px;
+    margin: 10px;
 
 }
 
@@ -33,11 +34,14 @@ img {
     width: 200px;
     height: 300px;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
 }
 
-p .header-bar {
-    word-spacing: 10px !important;
+.header-bar {
+    letter-spacing: 7px;
+    font-size: smaller;
+    color: gray;
+    font-size: 0.5em;
 }
 
 h4 {
@@ -52,11 +56,12 @@ h4 {
     margin-left: 20px;
 }
 
+/* 
 body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} */
 
 .about {
     background: #fff;
@@ -71,6 +76,12 @@ body {
 
 div h4 p {
     text-align: center;
+}
+
+.small {
+    color: grey;
+    line-height: 10px;
+    font-size: 0.8rem;
 }
 
 @media (max-width:768px) {
